@@ -1,8 +1,31 @@
-.section1{
-    background-image: url("img/h_img.jpg");
+#section1{
+    background-image: url("../img/h_img.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    height:80%;
     
+}
+.logo{
+    margin-top:70%;
+    margin-right:20%;
+    margin-bottom:10%;
+}
+.Julia{
+    margin-right:20%;
+    color:white;
+    font-size:150%;
+    font-family: 'Rufina', serif;
+}
+
+.julia{
+     font-size: 49%;
+     color: white;
+     text-align: center;
+}
+.first-text{
+    text-align: center;
+    font-size: 80%;
+    margin-left:40%;
 }
 .section2{
     background: whitesmoke;
@@ -14,4 +37,13 @@
     background: transparent;
     font-size-adjust: auto;  
     
+}
+.section3{
+    height: 300px;
+    background-image: url("../img/s_image.jpg");
+}
+.third-text{
+    text-align: center;
+    background: transparent;
+    color:black;
 }
