@@ -1,4 +1,17 @@
 .section1{
-    background: url(assets/h_img.jpg) no-repeat;
+    background-image: url("img/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.section2{
+    background: whitesmoke;
+    height: 300px;
+}
+.second-text{
+    color: black;
+    text-align: center;
+    background: transparent;
+    font-size-adjust: auto;  
     
 }
