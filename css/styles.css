@@ -86,50 +86,56 @@
     margin-top: 4%;
 
 }
-img1{
+.img1{
     background-image: url("../img/work1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
 }
-img1{
+.img2{
     background-image: url("../img/work2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img3{
     background-image: url("../img/work3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img4{
     background-image: url("../img/work4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img5{
     background-image: url("../img/work5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img6{
     background-image: url("../img/work6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img7{
     background-image: url("../img/work7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}img1{
+}
+.img8{
     background-image: url("../img/work8.jpg");
     background-repeat: no-repeat;
     background-size: cover;
