@@ -76,15 +76,57 @@
 .development{
     display: none;
 }
-.img1{
-    float: left;
-    margin-right: 200%;
+.image1{
+    height:50px;
+    margin-bottom: 34px; 
+    margin-left:300%; 
+   
+}
+.image2{
+    height:50px;
+    margin-bottom: 10px; 
+    margin-left:300%; 
+}
+.image3{
+    height:50px;
+    margin-bottom: 10px;  
+    margin-left: 500%;
+}
+.des{
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-left:300%; 
+    
+
+}
+.dev{
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-left:300%; 
+
+}
+.pro{
+    font-size: 100%;
+    margin-bottom: 10px;
+    margin-left: 500%;
 }
 .container2{
     margin-left: 10%;
     width:80%;
     margin-top: 4%;
 
+}
+.title{
+    text-align:center;
+    margin-left: 1%;
+    margin-top: 4%;
+    font-size: 100%;
+}
+.porto{
+    text-align:center;
+    margin-left: 1%;
+    margin-top: 4%;
+    font-size: 100%;
 }
 .img1{
     background-image: url("../img/work1.jpg");
@@ -141,4 +183,20 @@
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
+}
+.contact{
+    height: 300px;
+    background-image: url("../img/c_image.jpg");
+    background-size: cover;
+    margin-top: 6%;
+    margin-left: -20px;
+}
+input[type="text"]{
+    background: transparent;
+    width: 50%;
+    color:white;
+}
+#exampleformcontrolTextarea1{
+    background: transparent;
+    width: 50%;
 }
