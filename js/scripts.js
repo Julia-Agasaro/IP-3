@@ -23,6 +23,16 @@ $(document).ready(function(){
             $('.product').hide();
             $('.image3').show();
         });
-    
+    $('#button').click(function (event){
+        var name = $('#one').val();
+        var email = $('#two').val();
+        var message =$('#exampleforcontrolTextarea1').val();
+        if ((name !== '')&& (email !== '')&&(message !== '')){
+            alert(email + '' + 'We have received your message and we thank you for your time')
+        }else{
+            alert('please input your contact information')
+        }
+
+    });
 
 });

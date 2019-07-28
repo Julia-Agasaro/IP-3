@@ -200,3 +200,9 @@ input[type="text"]{
     background: transparent;
     width: 50%;
 }
+.form-group::placeholder {
+    color: white
+}
+button[type='button']{
+    margin-left: 40%;
+}
