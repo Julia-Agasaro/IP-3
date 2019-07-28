@@ -76,3 +76,17 @@
 .development{
     display: none;
 }
+.img1{
+    float: left;
+    margin-right: 200%;
+}
+.container2{
+    display: -ms-flexbox; 
+    display: flex;
+   -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.w-100{
+    margin-bottom: 4%;
+}
