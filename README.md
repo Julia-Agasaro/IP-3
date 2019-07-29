@@ -6,8 +6,8 @@
 
 1. HTML
 1. CSS
-1. JavaScript
-1.Js Querry
+1. Js-Querry
+
 
 **Contact**
 

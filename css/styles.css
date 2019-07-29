@@ -67,6 +67,16 @@
     background: transparent;
     color:black;
 }
+/* .container1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    padding-top: 5%;
+} */
+#what{
+    text-align: center;
+    font-size: 90%;
+}
 .design{
     display:none;
 }
@@ -76,40 +86,42 @@
 .development{
     display: none;
 }
-.image1{
+/* .image1{
     height:50px;
     margin-bottom: 34px; 
-    margin-left:300%; 
+    margin-left: 500%;
    
 }
 .image2{
     height:50px;
     margin-bottom: 10px; 
-    margin-left:300%; 
+    margin-left: 500%; 
 }
 .image3{
     height:50px;
     margin-bottom: 10px;  
     margin-left: 500%;
-}
-.des{
-    font-size: 100%;
-    margin-bottom: 10px;
-    margin-left:300%; 
+} */
+/* .des{
+    font-size: 16px;
+    margin-bottom:10%;
+    margin-left: 500%;
+    /* margin-top: 10%; */
     
 
-}
+/* }
 .dev{
-    font-size: 100%;
+    font-size: 16px;
     margin-bottom: 10px;
-    margin-left:300%; 
+    margin-left: 500%; 
+
 
 }
 .pro{
-    font-size: 100%;
+    font-size: 16px;
     margin-bottom: 10px;
     margin-left: 500%;
-}
+} */ 
 .container2{
     margin-left: 10%;
     width:80%;
@@ -120,7 +132,7 @@
     text-align:center;
     margin-left: 1%;
     margin-top: 4%;
-    font-size: 100%;
+    font-size: 200%;
 }
 .porto{
     text-align:center;
@@ -205,6 +217,16 @@ input[type="text"]{
     width: 50%;
     color:white;
 }
+#name{
+    width: 40%;
+    margin-left: 20%;
+    padding: 1%;
+}
+#email{
+    width: 40%;
+    margin-left: 0%;
+    padding: 1%;
+}
 #message{
     background: transparent;
     color: white;
@@ -218,7 +240,9 @@ input[type="text"]{
     color: white
 }
 button[type='button']{
-    margin-left: 30%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+
 }
 /* social icons */
 .footer{
@@ -231,30 +255,75 @@ button[type='button']{
 }
 .twitter{
     margin-right:1%;
+    width: 3%
 }
 .dribble{
     margin-right:1%;
+    width: 3%
 }
 .facebook{
     margin-right:1%;
+    width: 3%
 }
 .google{
     margin-right:1%;
+    width: 3%
 }
 .skype{
     margin-right:1%;
+    width: 3%
 }
 .stumble-upon{
     margin-right:1%;
+    width: 3%
 }
 .behance{
     margin-right:1%;
+    width: 3%
 }
 .pinterest{
     margin-right:1%;
+    width: 3%
 }
 .flickr{
     margin-right:1%;
+    width: 3%
 }
+#porto1,#porto2,#porto3,#porto4{
+    position: relative;
+    
+}
+#porto5,#porto6,#porto7,#porto8{
+    position: relative;
+}
+#one,#two,#three,#four{
+    position: absolute;
+    top:50px;
+    bottom: 40;
+    text-align: center;
+    border: 3px solid white;
+    width: 200px;
+    height: 150px;
+    margin-left: 14px;
+    background-color: transparent;
+    padding-bottom: 100px;
+    display: none;
+    color:white;
+}
+#five,#six,#seven,#eight{
+    position:absolute;
+    top:50px;
+    bottom: 40;
+    text-align: center;
+    border: 3px solid white;
+    width: 230px;
+    height: 120px;
+    margin-left: 14px;
+    background-color: transparent;
+    padding-top: 25px;
+    display: none;
+    color:white;
+}
+
 
 
