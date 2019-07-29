@@ -220,3 +220,40 @@ input[type="text"]{
 button[type='button']{
     margin-left: 30%;
 }
+/* social icons */
+.footer{
+    text-align: center;
+}
+.studio{
+    margin-top: 2%;
+    font-size: 80%;
+}
+.twitter{
+    margin-right:1%;
+}
+.dribble{
+    margin-right:1%;
+}
+.facebook{
+    margin-right:1%;
+}
+.google{
+    margin-right:1%;
+}
+.skype{
+    margin-right:1%;
+}
+.stumble-upon{
+    margin-right:1%;
+}
+.behance{
+    margin-right:1%;
+}
+.pinterest{
+    margin-right:1%;
+}
+.flickr{
+    margin-right:1%;
+}
+
+
