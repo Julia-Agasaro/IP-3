@@ -26,7 +26,7 @@ $(document).ready(function(){
     $('#button').click(function (event){
         var name = $('#one').val();
         var email = $('#two').val();
-        var message =$('#exampleforcontrolTextarea1').val();
+        var message =$('#message').val();
         if ((name !== '')&& (email !== '')&&(message !== '')){
             alert(email + '' + 'We have received your message and we thank you for your time')
         }else{
