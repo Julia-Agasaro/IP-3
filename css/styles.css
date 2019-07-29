@@ -2,38 +2,60 @@
     background-image: url("../img/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
-    height:80%;
+    width:100%;
+   
     
 }
-.logo{
-    margin-top:70%;
-    margin-right:20%;
-    margin-bottom:10%;
+.logo1{
+    position: absolute;
+    left:40%;
+    top:5%;
+    
 }
+.logo2{
+    position: absolute;
+    left:40%;
+    bottom:40%;
+    /* right:100%; */
+}
+
 .Julia{
-    margin-right:20%;
+    position: relative;
+    left:80%;
+    top:30%;
+    margin-bottom: 60%;
     color:white;
     font-size:150%;
-    font-family: 'Rufina', serif;
+    font-family: 'Roboto', sans-serif; 
 }
-.paragraph1{
+.paragraph1{ 
     font-size: 90%;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 30%;
+    margin-top:0%;
 }
-/* .header{
-    margin-left:10%;
-} */
+.about{
+    
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 150%;
+    
+}
+
 .julia{
-     font-size: 49%;
+    position: relative;
+    left:40%;
+    bottom: 20%;
+     font-size: 100%;
      color: white;
      text-align: center;
 }
-.first-text{
+/* .first-text{
     text-align: center;
     font-size: 80%;
-    margin-left:40%;
-}
+    margin-right:0%;
+    margin-left: 20%;
+} */
 .section2{
     background: whitesmoke;
     height: 300px;
@@ -131,8 +153,9 @@
 .title{
     text-align:center;
     margin-left: 1%;
-    margin-top: 4%;
-    font-size: 200%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 100%;
 }
 .porto{
     text-align:center;
@@ -143,13 +166,13 @@
 .header3{
     text-align:center;
     margin-left: 1%;
-    margin-top: 4%;
+    margin-top: 5%;
     font-size: 100%; 
 }
 /* .contact{
     margin-bottom: 20%;
 } */
-.img1{
+/* .img1{
     background-image: url("../img/work1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,12 +227,12 @@
     background-size: cover;
     height:150px;
     margin-bottom: 10px;
-}
+} */
 .contact{
     height: 500px;
     background-image: url("../img/c_image.jpg");
     background-size: cover;
-    margin-top: 6%;
+    margin-top: -10%;
     margin-left: -20px;
 }
 input[type="text"]{
@@ -291,15 +314,18 @@ button[type='button']{
 }
 #porto1,#porto2,#porto3,#porto4{
     position: relative;
+    opacity: 0.5;
     
 }
 #porto5,#porto6,#porto7,#porto8{
     position: relative;
+    margin-top: -10%;
+    opacity: 0.5;
 }
 #one,#two,#three,#four{
     position: absolute;
-    top:50px;
-    bottom: 40;
+    top:10px;
+    bottom: 20;
     text-align: center;
     border: 3px solid white;
     width: 200px;
@@ -309,18 +335,19 @@ button[type='button']{
     padding-bottom: 100px;
     display: none;
     color:white;
+    /* padding-bottom:50%; */
 }
 #five,#six,#seven,#eight{
-    position:absolute;
-    top:50px;
-    bottom: 40;
+    position: absolute;
+    top:10px;
+    bottom: 20;
     text-align: center;
     border: 3px solid white;
-    width: 230px;
-    height: 120px;
+    width: 200px;
+    height: 150px;
     margin-left: 14px;
     background-color: transparent;
-    padding-top: 25px;
+    padding-bottom: 100px;
     display: none;
     color:white;
 }
