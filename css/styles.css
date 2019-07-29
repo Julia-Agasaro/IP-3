@@ -1,3 +1,20 @@
+/*Extra small devices*/
+@media only screen and (max-width:600px){}
+
+/* small devices*/
+@media only screen and (min-width:600px){}
+
+/*Medium devices*/
+@media only screen and (max-width:768px){}
+
+
+/*large devices*/
+@media only screen and (min-width:992px){}
+
+
+/*Extra large devices*/
+@media only screen and (min-width:1200px){}
+
 #section1{
     background-image: url("../img/h_img.jpg");
     background-size: cover;
@@ -14,18 +31,19 @@
 }
 .logo2{
     position: absolute;
-    left:40%;
-    bottom:40%;
+    left:43%;
+    bottom:20%;
     /* right:100%; */
 }
 
 .Julia{
     position: relative;
-    left:80%;
+    /* bottom: 90%; */
+    left:70%;
     top:30%;
     margin-bottom: 60%;
     color:white;
-    font-size:150%;
+    font-size:300%;
     font-family: 'Roboto', sans-serif; 
 }
 .paragraph1{ 
@@ -43,9 +61,9 @@
 }
 
 .julia{
-    position: relative;
-    left:40%;
-    bottom: 20%;
+     position: relative;
+     left:50%;
+     bottom: 20%;
      font-size: 100%;
      color: white;
      text-align: center;
@@ -164,6 +182,7 @@
     font-size: 100%;
 }
 .header3{
+    color: white;
     text-align:center;
     margin-left: 1%;
     margin-top: 5%;
@@ -259,8 +278,11 @@ input[type="text"]{
     padding:70px;
     
 }
-.form-group::placeholder {
+/* .form-group::placeholder {
     color: white
+} */
+::placeholder{
+    color:white;
 }
 button[type='button']{
     margin-left: 5%;
@@ -314,13 +336,23 @@ button[type='button']{
 }
 #porto1,#porto2,#porto3,#porto4{
     position: relative;
-    opacity: 0.5;
+    opacity: 0.7;
+    filter: contrast(200%);
     
 }
-#porto5,#porto6,#porto7,#porto8{
+#porto5,#porto7,#porto8{
     position: relative;
     margin-top: -10%;
-    opacity: 0.5;
+    opacity: 0.7;
+    filter: contrast(200%)
+    
+    /* filter: contrast(200%); */
+    
+}
+#porto6{
+    position: relative;
+    margin-top: -10%; 
+    opacity: 0.7;
 }
 #one,#two,#three,#four{
     position: absolute;
@@ -335,6 +367,7 @@ button[type='button']{
     padding-bottom: 100px;
     display: none;
     color:white;
+   
     /* padding-bottom:50%; */
 }
 #five,#six,#seven,#eight{
@@ -351,6 +384,14 @@ button[type='button']{
     display: none;
     color:white;
 }
-
+::placeholder {
+    color:white;
+    opacity: 1; /* Firefox */
+    
+  }
+  
+#msg{
+    height: 100%;
+}
 
 
